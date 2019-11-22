@@ -98,7 +98,7 @@ def fun():
                     # print(str(l2_hit_rate))
 
                     row = dict()
-                    row[fields[0]] = name[:-5]
+                    row[fields[0]] = name[:-6]
                     row[fields[1]] = l1_i_hit_rate
                     row[fields[2]] = l1_d_hit_rate
                     row[fields[3]] = l2_hit_rate
